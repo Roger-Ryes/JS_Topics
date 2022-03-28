@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Control de Acceso</title>
+        <!-- Include CSS File Here -->
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
+         <!-- Include JS File Here -->
+        <script src="js/boton.js"></script>  
+        <!--<script src="js/rutas.js"></script>-->
+        <!--<script src="js/init.js"></script>-->
+        
+        <!--jQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <img src="/Users/Abby/Desktop/hmihouse/imagenes/esfot.jpg" class="avatar" alt="Avatar Image">
+            <h1>Sistem HMI</h1>
+
+            <form id="form_id" method="POST" target="_top">
+                <label>Usuario :</label>
+                <input type="text" placeholder="Usuario" name="username" id="username"/>
+                <label>Contraseña :</label>
+                <input type="password" placeholder="Contrasena" name="password" id="password"/>
+                <input class="boton" type="button" value="LOGIN" id="submit" onclick="validate()"/>
+                <hr>
+
+                <p>Lugar 1</p>
+                <button class="btnOn btn1">Prender1</button>
+                <button class="btnOff btn1">Apagar1</button>
+                <br>
+
+                <p>Lugar 2</p>
+                <button class="btnOn btn2">Prender2</button>
+                <button class="btnOff btn2">Apagar2</button>
+                <br>
+
+                <p>Lugar 3</p>
+                <button class="btnOn btn3">Prender2</button>
+                <button class="btnOff btn3">Apagar2</button>
+                <br>
+
+                <p>Lugar 4</p>
+                <button class="btnOn btn4">Prender2</button>
+                <button class="btnOff btn4">Apagar2</button>
+                <br>
+
+                <p>Lugar 5</p>
+                <button class="btnOn btn5">Prender2</button>
+                <button class="btnOff btn5">Apagar2</button>
+                <br>
+                
+            </form>
+        </div>
+    </body>
+</html>
