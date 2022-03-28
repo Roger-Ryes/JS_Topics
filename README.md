@@ -1,4 +1,4 @@
-#NODE JS
+# NODE JS
 Plataforma que nos permite trabajar con el servidor con javascript
 1. Conexion a BD
 2. Crear servidor
@@ -8,7 +8,7 @@ Plataforma que nos permite trabajar con el servidor con javascript
 6. Subir archivos
 7. Front-end con Angular
 
-#INTRODUCCION 
+# INTRODUCCION 
 - Permite desarrollar script
 - Para desarrollar un APIrest o backend
 
@@ -19,7 +19,7 @@ y ejecutar el archivo js a node
 	node archivo.js
 
 ________________________________________________
-#NODE.JS, ACCEPT ARGUMENTS FROM THE COMMAND LINE
+# NODE.JS, ACCEPT ARGUMENTS FROM THE COMMAND LINE
 	You can pass any number of arguments when invoking a Node.js application using
 
  		$ node app.js
@@ -48,13 +48,13 @@ ________________________________________________
 			args[0]
 
 ____________________________________
-#Para crear un nuevo proyecto se ejecuta el comando:
+# Para crear un nuevo proyecto se ejecuta el comando:
 
 	$ npm init //Para iniciar el proyecto
 Posteriormente se debe ingresar el nombre, la version, description, entry point(Punto de inicio del programa), 
 
 __________________________________
-#Para instalar dependencias o los paquetes 
+# Para instalar dependencias o los paquetes 
 	Ejecutamos el comando 
 		$ npm install (paquete a instalar)
 
@@ -84,7 +84,7 @@ __________________________________
 		Es una dependencia de desarrollo local
 
 __________________________________________
-#Package.json
+# Package.json
 	there are lots of things going on here:
 
     name: 		 sets the application/package name
@@ -145,7 +145,7 @@ __________________________________________
 		}
 
 _________________________________________________________
-#NPM DEPENDENCIES AND DEVDEPENDENCIES
+# NPM DEPENDENCIES AND DEVDEPENDENCIES
 
 When you install an npm package using "npm install <package-name>", you are installing it as a "dependency".
 The package is automatically listed in the package.json file, under the "dependencies" list.
@@ -154,7 +154,7 @@ When you add the -D flag, or --save-dev, you are installing it as a "development
 
 
 ________________________________________________________
-#EXPRESS
+# EXPRESS
 (https://expressjs.com/es/guide/routing.html) 
 RUTAS
 	Esta vía de acceso de ruta coincidirá con las solicitudes a la ruta raíz, /.
@@ -198,7 +198,7 @@ RUTAS
 MANEJADORES DE RUTAS
 	
 ________________________________________________
-#MONGOOSE 
+# MONGOOSE 
 (REF: https://www.npmjs.com/package/mongoose)
 
 DEFINING A MODEL
@@ -263,7 +263,7 @@ DEFINING A MODEL
 		});
 
 __________________
-#Middleware 
+# Middleware 
 (https://expressjs.com/es/guide/using-middleware.html)
 Las funciones de middleware son funciones que tienen acceso al objeto de solicitud (req), al objeto de respuesta (res) y a la siguiente función de middleware en el ciclo de solicitud/respuestas de la aplicación. La siguiente función de middleware se denota normalmente con una variable denominada next.
 
@@ -280,4 +280,4 @@ Middleware
 Middleware es software que se sitúa entre un sistema operativo y las aplicaciones que se ejecutan en él. Básicamente, funciona como una capa de traducción oculta para permitir la comunicación y la administración de datos en aplicaciones distribuidas.
 
 __________________
-#CORS
+# CORS
