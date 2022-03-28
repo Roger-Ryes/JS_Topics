@@ -1,0 +1,10 @@
+Introducion
+1. Primeros Pasos
+2. Selectores
+3. Eventos
+4. Efectos y animaciones
+5. AJAX
+6. jQuery UI (libreria o plugging)
+7. Animaciones 
+8. Plugins y widgets
+9. Proyecto JS - jQuery

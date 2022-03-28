@@ -1,0 +1,6 @@
+AJAX 
+AJAX permite hacer peticiones al servidor de manera
+asincrona y recoger los resultados sin que la pagina
+actualice, solo se actualiza un trozo de la pantalla
+cargando una informacion
+Se utilizara "reqres.in" (Es una API de prueba).
