@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery UI</title>
+		<meta charset="utf-8">
+		<!--jQuery - Primero va jQuey-->
+		<script type="text/javascript" src="../jQuery/jQuery/https _code.jquery.com_jquery-3.5.1.min.js"></script>
+
+		<!--jQuery UI- luego va el Pluggin de jQuery-->
+		<script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+		
+		<!--jQuery UI (para resizable)-->
+		<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.min.css"></head>
+		<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.structure.min.css"></head>
+		<link rel="stylesheet" type="text/css" href="jquery-ui/jquery-ui.theme.min.css"></head>
+
+		<!--Archivo JS-->
+		<script type="text/javascript" src="01-interfaz.js"></script>
+		
+		<!--Stilos-->
+		<style type="text/css">
+			.elemento{
+				width: 300px;
+				height: 200px;
+				border: 4px solid black;
+				background: lightblue;
+				margin: 20px;
+				float: left;
+			}
+
+			.lista_seleccion li{
+				width: 80%;
+				padding: 20px;
+				border: 1px solid #ccc;
+				list-style: none;
+				cursor: pointer;
+			}
+
+			ul .ui-selecting{background: lightgreen;}
+			ul .ui-selected{background: darkgreen}	
+
+			#elemento-movido{
+				height: 100px;
+				width: 100px;
+				border:4px solid red; 
+
+			}
+
+			#area{
+				height: 300px;
+				width: 300px;
+				border:4px solid green; 
+
+			}
+		</style>
+	
+	</head>
+	<body>
+		<h1>Aprendiendo jQuery UI</h1>
+
+		<div id="elemento-movido" class="elemento"></div>
+		<br>
+		<div id="area" class="elemento"></div>
+
+		<ul class="lista_seleccion">
+			<li>GTA 5</li>
+			<li>Need for Speed</li>
+			<li>Crash</li>
+			<li>Super Mario</li>
+		</ul>
+
+		<div class="elemento">
+			Hola soy un elemento de la web
+		</div>
+		<div class="elemento">
+			Hola soy un elemento de la web
+		</div>
+		<div class="elemento">
+			Hola soy un elemento de la web
+		</div>
+		<div class="elemento">
+			Hola soy un elemento de la web
+		</div>
+		
+
+	</body>
+</html>
